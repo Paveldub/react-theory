@@ -1,0 +1,17 @@
+.car {
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.input {
+    outline: none;
+
+    .green {
+        border: 1px solid green;
+    }
+
+    .red {
+        border: 1px solid red;
+    }
+}
