@@ -10,6 +10,7 @@ class App extends Component {
 		super(props) 
 
 		this.state = {
+			clicked: false,
 			cars: [
 				{name: 'Ford', year: 2018},
 				{name: 'Audi', year: 2016},
@@ -56,9 +57,7 @@ class App extends Component {
     return (
       <div style={{textAlign: 'center'}}>
 		<h2>{this.state.pageTitle}</h2>
-
 		<Counter />
-
 		<hr />
 
 		<button onClick={this.toggleCarsHandler}>Toggle cars</button>
